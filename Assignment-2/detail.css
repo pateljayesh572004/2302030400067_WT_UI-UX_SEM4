@@ -1,0 +1,111 @@
+.type-stacked-simple{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 64px;
+padding: 80px 64px;
+position: relative;
+background-color: #fff6e0;
+}
+
+.type-stacked-simple .content {
+display: inline-flex;
+flex-direction: column;
+align-items: center;
+gap: 32px;
+position: relative;
+flex: 0 0 auto;
+}
+
+.type-stacked-simple .logo {
+display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+position: relative;
+flex: 0 0 auto;
+}
+
+.type-stacked-simple .brand-name {
+position: relative;
+align-self: stretch;
+margin-top: -1.00px;
+font-family: "Source Sans Pro-Regular", Helvetica;
+font-weight: 400;
+color: #61677a;
+font-size: 18px;
+letter-spacing: 0;
+line-height: 27px;
+}
+
+.type-stacked-simple .navbar {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 32px;
+position: relative;
+flex: 0 0 auto;
+}
+
+.type-stacked-simple .link {
+position: relative;
+width: fit-content;
+margin-top: -1.00px;
+font-family: "Source Sans Pro-Regular", Helvetica;
+font-weight: 400;
+color: #61677a;
+font-size: 18px;
+letter-spacing: 0;
+line-height: 27px;
+white-space: nowrap;
+}
+
+.type-stacked-simple .credits {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 32px;
+position: relative;
+align-self: stretch;
+width: 100%;
+flex: 0 0 auto;
+}
+
+.type-stacked-simple .divider {
+position: relative;
+align-self: stretch;
+width: 100%;
+height: 1px;
+background-color: #61677a;
+}
+
+.type-stacked-simple .row {
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+position: relative;
+align-self: stretch;
+width: 100%;
+flex: 0 0 auto;
+}
+
+.type-stacked-simple .text-wrapper {
+position: relative;
+width: fit-content;
+margin-top: -1.00px;
+font-family: "Source Sans Pro-Regular", Helvetica;
+font-weight: 400;
+color: #61677a;
+font-size: 14px;
+letter-spacing: 0;
+line-height: 22.4px;
+white-space: nowrap;
+}
+
+.type-stacked-simple .footer-links {
+display: inline-flex;
+align-items: flex-start;
+gap: 24px;
+position: relative;
+flex: 0 0 auto;
+}

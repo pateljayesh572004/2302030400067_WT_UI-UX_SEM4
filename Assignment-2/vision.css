@@ -1,0 +1,71 @@
+.type-two-column-big {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    padding: 80px 32px;
+    position: relative;
+    background-color: #fff6e0;
+  }
+  
+  .type-two-column-big .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    align-items: center;
+    justify-content: center;
+    gap: 48px 48px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .type-two-column-big .text-content {
+    display: flex;
+    flex-direction: column;
+    min-width: 280px;
+    max-width: 960px;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .type-two-column-big .benefit-heading {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Playfair Display-Black", Helvetica;
+    font-weight: 900;
+    color: #f3756d;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 46.8px;
+  }
+  
+  .type-two-column-big .description {
+    position: relative;
+    align-self: stretch;
+    font-family: "Playfair Display-Black", Helvetica;
+    font-weight: 900;
+    color: #7a8197;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 46.8px;
+  }
+  
+  .type-two-column-big .mission-image-lummi {
+    position: relative;
+    flex: 1;
+    min-width: 320px;
+    flex-grow: 1;
+    height: 720px;
+    border-radius: 32px;
+    background-image: url(./img/mission-image-lummi.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }

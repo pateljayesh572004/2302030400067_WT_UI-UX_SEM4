@@ -1,0 +1,123 @@
+.type-stacked-medium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 40px;
+    position: relative;
+    background-color: #fff6e0;
+  }
+  
+  .type-stacked-medium .content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    align-items: center;
+    gap: 64px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .type-stacked-medium .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .type-stacked-medium .figma-ipsum {
+    position: relative;
+    margin-top: -1.00px;
+    font-family: "Playfair Display-Black", Helvetica;
+    font-weight: 900;
+    color: #61677a;
+    font-size: 56px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 67.2px;
+  }
+  
+  .type-stacked-medium .text-wrapper {
+    position: relative;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #7a8197;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 28.6px;
+  }
+  
+  .type-stacked-medium .button-combo {
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 420px;
+    align-items: center;
+    gap: 16px 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .type-stacked-medium .CTA-button {
+    display: inline-flex;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 20px 28px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #f3756d;
+    border-radius: 8px;
+  }
+  
+  .type-stacked-medium .CTA-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 4px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -4.00px;
+    margin-bottom: -4.00px;
+  }
+  
+  .type-stacked-medium .CTA {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #fff6e0;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .type-stacked-medium .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 auto;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .type-stacked-medium .image-lummi {
+    height: 600px;
+    object-fit: cover;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  

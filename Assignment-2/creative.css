@@ -1,0 +1,115 @@
+.type-simple-text {
+    height: 489px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 120px 16px;
+    background-color: #fff6e0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .type-simple-text .content {
+    max-width: 1440px;
+    align-items: flex-start;
+    gap: 32px;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .type-simple-text .heading-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .type-simple-text .one-word-heading {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Playfair Display-Black", Helvetica;
+    font-weight: 900;
+    color: #61677a;
+    font-size: 56px;
+    letter-spacing: 0;
+    line-height: 67.2px;
+  }
+  
+  .type-simple-text .short-catchy-heading {
+    position: relative;
+    align-self: stretch;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #7a8197;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 30.8px;
+  }
+  
+  .type-simple-text .feature-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px 24px;
+    width: 100%;
+    flex: 0 0 auto;
+    position: relative;
+    align-self: stretch;
+  }
+  
+  .type-simple-text .feature {
+    align-items: flex-start;
+    gap: 4px;
+    padding: 16px 24px;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #fdeabb;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .type-simple-text .feature-title {
+    margin-top: -1.00px;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #61677a;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    position: relative;
+    align-self: stretch;
+  }
+  
+  .type-simple-text .feature-description {
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #7a8197;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    position: relative;
+    align-self: stretch;
+  }
+  

@@ -1,0 +1,207 @@
+.type-circle-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    padding: 120px 16px;
+    position: relative;
+    background-color: #fff6e0;
+  }
+  
+  .type-circle-photo .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px 24px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .type-circle-photo .image-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 280px;
+    max-height: 520px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 24px 0px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+  
+  .type-circle-photo .subscribe-image {
+    position: relative;
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+  }
+  
+  .type-circle-photo .copy-component {
+    display: flex;
+    flex-direction: column;
+    min-width: 304px;
+    max-width: 720px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .type-circle-photo .heading-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .type-circle-photo .heading {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Playfair Display-Black", Helvetica;
+    font-weight: 900;
+    color: #61677a;
+    font-size: 56px;
+    letter-spacing: 0;
+    line-height: 67.2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .type-circle-photo .subheading {
+    position: relative;
+    align-self: stretch;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #7a8197;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 30.8px;
+  }
+  
+  .type-circle-photo .input-button-combo {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 720px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px 8px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .type-circle-photo .input {
+    display: flex;
+    flex-direction: column;
+    min-width: 280px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .type-circle-photo .input-form {
+    display: flex;
+    height: 56px;
+    align-items: center;
+    gap: 8px;
+    padding: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #fff6e0;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #a2a5a7;
+  }
+  
+  .type-circle-photo .text-container {
+    padding: 0px 4px;
+    position: relative;
+    flex-grow: 1;
+    border: none;
+    background: none;
+    margin-top: -1.00px;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #7a8197;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  
+  .type-circle-photo .button {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    min-width: 140px;
+    max-width: 324px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 16px 24px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #f3756d;
+    border-radius: 8px;
+  }
+  
+  .type-circle-photo .CTA-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 4px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -3.00px;
+    margin-bottom: -3.00px;
+  }
+  
+  .type-circle-photo .CTA {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #fff6e0;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }

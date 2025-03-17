@@ -1,0 +1,127 @@
+.property-three {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 80px 16px;
+    background-color: #fdeabb;
+    display: flex;
+    position: relative;
+  }
+  
+  .property-three .content {
+    flex-direction: column;
+    max-width: 1024px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+  }
+  
+  .property-three .heading-text {
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .property-three .how-it-works-heading {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Playfair Display-Black", Helvetica;
+    font-weight: 900;
+    color: #61677a;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 46.8px;
+  }
+  
+  .property-three .how-it-works-grid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px 40px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .property-three .step {
+    flex-direction: column;
+    min-width: 240px;
+    max-width: 400px;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    position: relative;
+  }
+  
+  .property-three .number {
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #61677a;
+    border-radius: 48px;
+    display: flex;
+    position: relative;
+  }
+  
+  .property-three .step-title {
+    width: fit-content;
+    color: #fff6e0;
+    font-size: 18px;
+    text-align: center;
+    line-height: 27px;
+    white-space: nowrap;
+    position: relative;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .property-three .feature-title {
+    position: relative;
+    align-self: stretch;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #61677a;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  
+  .property-three .step-description {
+    align-self: stretch;
+    color: #7a8197;
+    font-size: 14px;
+    line-height: 22.4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    position: relative;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
